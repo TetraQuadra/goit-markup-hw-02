@@ -134,6 +134,7 @@ footer {
 }
 
 .filter-buttons-list button:hover,
+.filter-buttons-list button:focus,
 .filter-buttons-list button:active {
   background-color: var(--active-state-color);
   color: var(--bright-background-color);
