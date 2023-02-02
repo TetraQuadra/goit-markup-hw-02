@@ -62,14 +62,13 @@ footer {
 }
 
 .navigation-list a {
-  font-style: normal;
   font-weight: 500;
   color: var(--headings-color);
   text-decoration: none;
 }
 
 .navigation-list a:hover,
-.navigation-list a:active {
+.navigation-list a:focus {
   color: var(--active-state-color);
 }
 
@@ -78,7 +77,7 @@ footer {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.contacts-list a:active,
+.contacts-list a:focus,
 .contacts-list a:hover {
   color: var(--active-state-color);
 }
@@ -101,6 +100,7 @@ footer {
   letter-spacing: 0.04em;
   color: var(--bright-background-color);
   background: var(--primary-brand-color);
+  cursor: pointer;
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
 }
@@ -128,6 +128,7 @@ footer {
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
   background: var(--light-accent-color);
+  cursor: pointer;
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
   border: 1px solid var(--accent-color);
