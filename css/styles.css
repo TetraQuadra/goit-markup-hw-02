@@ -19,7 +19,7 @@ body {
   color: var(--primary-text-color);
 }
 
-h2 {
+.secondary-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
@@ -28,18 +28,14 @@ h2 {
   color: var(--headings-color);
 }
 
-h3 {
+.minor-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--headings-color);
 }
 
-ul {
-  list-style-type: none;
-}
-
-footer {
+.footer {
   background-color: var(--hero-background-color);
 }
 
@@ -70,6 +66,15 @@ footer {
 .navigation-list a:hover,
 .navigation-list a:focus {
   color: var(--active-state-color);
+}
+
+.team-list,
+.features-list,
+.navigation-list,
+.projects-list,
+.filter-buttons-list,
+.contacts-list {
+  list-style-type: none;
 }
 
 .contacts-list a {
