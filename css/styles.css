@@ -20,7 +20,6 @@ body {
 }
 
 .secondary-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
   text-align: center;
@@ -91,7 +90,6 @@ body {
   background-color: var(--hero-background-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
